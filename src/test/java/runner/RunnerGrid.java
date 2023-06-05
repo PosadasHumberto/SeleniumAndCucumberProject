@@ -6,9 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/resources/features/Google.feature",
-    glue = "steps"
+        features = "src/test/resources/features/Grid.feature",
+        glue = "steps"
 )
-public class Runner {
-
+public class RunnerGrid {
 }

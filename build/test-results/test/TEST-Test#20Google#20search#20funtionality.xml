@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test Google search funtionality" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-04T18:19:34" hostname="DESKTOP-H4IH0R6" time="0.344">
+<testsuite name="Test Google search funtionality" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-05T20:17:16" hostname="DESKTOP-H4IH0R6" time="9.096">
   <properties/>
-  <testcase name="As a user i enter a search criteria in Google" classname="Test Google search funtionality" time="0.344"/>
+  <testcase name="As a user i enter a search criteria in Google" classname="Test Google search funtionality" time="9.096"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[juin 05, 2023 10:17:16 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFOS: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 34205
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+juin 05, 2023 10:17:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
 </testsuite>
