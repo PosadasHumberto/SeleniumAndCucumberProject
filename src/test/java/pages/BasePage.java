@@ -20,7 +20,7 @@ public class BasePage {
     static {
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new ChromeDriver(chromeOptions);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));       //espera explicita, en el momento en que se encuentre e WebElement va a continuar con el flujo.
     }
 
     public BasePage(WebDriver driver) {
@@ -54,5 +54,17 @@ public class BasePage {
     public void setValueOnTable(String locator, int row, int column, String stringToSend){
         String cellToFill = locator + "/tbody[1]/tr[" + row + "]/td[" + column + "]";
         find(cellToFill).sendKeys(stringToSend);
+    }
+
+    public void switchToIFrame(Integer iFrameId){
+        driver.switchTo().frame(iFrameId);
+    }
+
+    public void switchToParentFrame(){
+        driver.switchTo().parentFrame();
+    }
+
+    public void dismissAlert(){
+        driver.switchTo().alert().dismiss();
     }
 }
