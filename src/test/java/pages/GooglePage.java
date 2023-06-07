@@ -26,4 +26,6 @@ public class GooglePage extends BasePage{
         write(searchTextField, criteria);
     }
 
+
+
 }

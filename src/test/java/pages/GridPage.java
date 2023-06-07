@@ -15,4 +15,8 @@ public class GridPage extends BasePage{
     public String getValueFromGrid(int row, int column){
         return getValueFromTable(cell, row, column);
     }
+
+    public boolean cellStatus(){
+        return elementIsDisplayed(cell);
+    }
 }
